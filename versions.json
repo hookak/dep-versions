@@ -13,7 +13,7 @@
     },
     "spdk": {
         "repo": "https://github.com/hookak/spdk.git",
-        "commit": "be2fba328b9e2d973ad53824ecbfd319c09e9fec",
+        "commit": "7215fd9b97127619d98aba6174b7a0b1ea674caa",
         "tag": "v24.09.0+5",
         "description": "SPDK is a storage performance development kit."
     },
