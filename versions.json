@@ -12,9 +12,9 @@
         "description": "tgtd is a user-space daemon that provides SCSI target support."
     },
     "spdk": {
-        "repo": "https://github.com/longhorn/spdk.git",
-        "commit": "be2fba328b9e2d973ad53824ecbfd319c09e9fec",
-        "tag": "v24.09.0+5",
+        "repo": "https://github.com/hookak/spdk.git",
+        "commit": "7215fd9b97127619d98aba6174b7a0b1ea674caa",
+        "tag": "v24.09.0+6",
         "description": "SPDK is a storage performance development kit."
     },
     "go-spdk-helper": {
