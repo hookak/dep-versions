@@ -33,6 +33,9 @@ git clone "$LIBJSONC_REPO" "$SRC_DIR"
 cd "$SRC_DIR"
 git checkout "$LIBJSONC_COMMIT_ID"
 
+# Patch CMakeLists.txt for compatibility with newer CMake
+sed -i 's/^cmake_minimum_required(VERSION [0-9.]\+)/cmake_minimum_required(VERSION 3.5)/' tests/CMakeLists.txt
+
 # Create and enter the build directory
 mkdir -p "$BUILD_DIR"
 cd "$BUILD_DIR"
